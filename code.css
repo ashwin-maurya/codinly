@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100vw;
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: #d9a5fc;
+    scroll-behavior: smooth;
+    position: fixed;
+}
+
+#container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #d9a5fc;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+
+/* navbar */
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#nav-m {
+    padding: 5px 40px 5px 0;
+    color: #272727;
+    font-size: 25px;
+    font-family: "roboto", cursive;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-items {
+    padding: 0 1rem 0 1rem;
+}
+
+.logo img {
+    height: 40px;
+    width: 40px;
+    margin: 5px 10px;
+    border-radius: 50%;
+}
+
+
+/*card design*/
+
+#cards {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cards {
+    width: 250px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 20px 10px 40px 10px;
+}
+
+.heading {
+    color: rgb(104, 88, 88);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10PX;
+    text-align: center;
+}
+
+#imgs {
+    margin: 5px;
+    height: auto;
+    width: auto;
+}
+
+#image {
+    height: 150px;
+    width: auto;
+}
+
+#th-name {
+    width: 100%;
+    height: auto;
+    margin: 10px 0 0 0;
+}
+
+#th-name p {
+    font-size: 18px;
+    color: #000;
+    opacity: .6;
+    text-shadow: 0 0 3px rgba(0, 0, 0, .1);
+    width: 80%;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-align: left;
+    padding: 0 0 0 10px;
+    font-family: 'Potta One', cursive;
+    border: .5px solid transparent;
+    border-left: 4px solid salmon;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+#th-info {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
+}
+
+#th-info p {
+    font-size: 16px;
+    color: #000;
+    opacity: .6;
+    text-shadow: 0 0 3px rgba(0, 0, 0, .1);
+    width: 95%;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-align: right;
+    padding: 0 10px 0 0;
+    font-family: 'Potta One', cursive;
+    border: .5px solid transparent;
+    border-right: 4px solid salmon;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+#btn {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    height: auto;
+    margin: 5px 0 0 0;
+}
+
+#start {
+    width: 45%;
+    height: auto;
+    background-color: tomato;
+    border-radius: 2px;
+    padding: 5px;
+    color: white;
+    margin: 5px 0px 0 0;
+    box-shadow: 5px 10px 5px .1px rgba(0, 0, 0, 0.2), 1px 1px 1px .1px rgba(255, 255, 255, 0.2);
+}
